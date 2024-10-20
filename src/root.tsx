@@ -32,8 +32,6 @@ export default function Root() {
   const [openLink, setOpenLink] = useState(false)
   const [openColor, setOpenColor] = useState(false)
 
-  console.log(content)
-
   if (isFetching) {
     return null
   }
